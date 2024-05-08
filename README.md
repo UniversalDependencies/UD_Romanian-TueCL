@@ -35,6 +35,6 @@ Features: manual native
 Relations: manual native
 Contributors: Hoefels, Diana; Çöltekin, Çağrı
 Contributing: here
-Contact: diana-constantina.hoefels@student.uni-tuebingen.de, cagri.coeltekin@uni-tuebingen.de
+Contact: diana-constantina.hoefels@student.uni-tuebingen.de or diana.hoefels@gmail.com, cagri.coeltekin@uni-tuebingen.de
 ===============================================================================
 </pre>
