@@ -1,20 +1,19 @@
 # Summary
 
-This is a (currently small) Twitter treebank containing a subset of tweets from [CoRoSeOf](https://github.com/DianaHoefels/CoRoSeOf).
-
+The Romanian Social Media Sexist Language UD Treebank is a reference treebank in Universal Dependencies (UD) format for Romanian sexist language. Currently small, it comprises a subset of tweets sourced from [CoRoSeOf](https://github.com/DianaHoefels/CoRoSeOf). 
 
 # Introduction
 
-...
+The Romanian Social Media Sexist Language UD Treebank is a specialized linguistic resource focused on analyzing sexist language in Romanian social media. It contains 210 annotated tweets selected from [CoRoSeOf](https://github.com/DianaHoefels/CoRoSeOf), providing a unique insight into social media discourse. As part of the UD_Romanian-TueCL project, it fills a significant gap in Romanian linguistic resources by being the first UD treebank to specifically address sexist language in the social media genre. The project is work-in-progress and the treebank is being updated on a regular basis.
 
 
 # Acknowledgments
 
-...
+The creation of this treebank was made possible through the initiative of Dr. Çağrı Çöltekin, lecturer at the University of Tuebingen, as part of a course project focused on low-resourced languages. While Romanian is not a low-resourced language, it lacked a UD-compliant social media corpus. Diana C. Hoefels constructed and annotated the treebank, while Dr. Çağrı Çöltekin provided reviewing, consultation on the guidelines, and authored the documentation.
 
 ## References
 
-* (citation)
+* For a quantative and qualitative analysis of the sourced samples, refer to [CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets](https://aclanthology.org/2022.lrec-1.243/).
 
 
 # Changelog
