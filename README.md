@@ -9,7 +9,7 @@ The Romanian Social Media Sexist Language UD Treebank is a specialized linguisti
 
 # Acknowledgments
 
-The creation of this treebank was made possible through the initiative of Dr. Çağrı Çöltekin, lecturer at the University of Tuebingen, as part of a course project focused on low-resourced languages. While Romanian is not a low-resourced language, it lacked a UD-compliant social media corpus. Diana C. Hoefels constructed and annotated the treebank, while Dr. Çağrı Çöltekin provided reviewing, consultation on the guidelines, and authored the documentation.
+The creation of this treebank was made possible through the initiative of Dr. Çağrı Çöltekin, lecturer @University of Tuebingen, as part of a course project focused on low-resourced languages. While Romanian is not a low-resourced language, it lacked a UD-compliant social media corpus. Diana C. Hoefels constructed and annotated the corpus, while Dr. Çağrı Çöltekin provided reviewing, consultation on the guidelines, and authored the documentation.
 
 ## References
 
