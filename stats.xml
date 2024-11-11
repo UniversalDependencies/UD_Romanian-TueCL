@@ -46,16 +46,16 @@
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">5</feat><!-- doamne, frumușico, mami -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM,PROPN">314</feat><!-- femeia, femeile, fetele, bărbatul, bărbații, bărbaților, femeii, apa, sânii, Diavolul -->
     <feat name="Definite" value="Ind" upos="ADJ,NOUN">739</feat><!-- femeie, femei, frumoasă, bărbat, PUPICI, DULCI, fată, frumoasa, barbat, bună -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN">359</feat><!-- frumoasă, doar, bine, așa, frumoasa, asa, bună, chiar, acum, mare -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN">355</feat><!-- frumoasă, doar, bine, așa, frumoasa, asa, bună, chiar, acum, mare -->
     <feat name="Degree" value="Sup" upos="ADJ">4</feat><!-- FOC, perfecte, perfectă, perfecți -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,NOUN,PROPN,VERB,X">38</feat><!-- sexy, hot, BITCH, BRO, DisneyLand, MILFă, SEXSY, Schadenfreude, Survivor, WTF -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">800</feat><!-- o, femeie, femeia, femeile, femei, fetele, frumoasă, asta, -o, toate -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">678</feat><!-- un, bărbat, PUPICI, DULCI, bărbatul, el, mulți, bărbații, barbat, bărbați -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">795</feat><!-- o, femeie, femeia, femeile, femei, fetele, frumoasă, asta, -o, toate -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">661</feat><!-- un, bărbat, PUPICI, DULCI, bărbatul, el, mulți, bărbații, barbat, bărbați -->
     <feat name="Mood" value="Imp" upos="VERB">11</feat><!-- ia, uite, Lasă, arată, bagati, fereste, treziti, trust, uitati -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">492</feat><!-- e, ești, sunt, este, esti, are, au, era, știu, dau -->
     <feat name="Mood" value="Sub" upos="AUX,PART,VERB">140</feat><!-- să, sa, fii, fie, fim, fiu, injure, s-, vorbească, zică -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">553</feat><!-- sunt, femeile, femei, au, fetele, PUPICI, DULCI, toate, mulți, bărbații -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1681</feat><!-- o, e, a, ești, un, femeie, femeia, te, este, asta -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1676</feat><!-- o, e, a, ești, un, femeie, femeia, te, este, asta -->
     <feat name="Number[psor]" value="Plur" upos="DET">5</feat><!-- lor, nostru -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">29</feat><!-- mea, ta, ei, lui, tale, tău, meu, tai, tau, tăi -->
     <feat name="NumForm" value="Digit" upos="NUM">24</feat><!-- 10, 2, 3, 9, 1, 112, 12, 12000, 2,5, 20 -->
