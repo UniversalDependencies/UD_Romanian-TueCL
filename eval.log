@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Romanian-TueCL:
-commit fbdb8310991a0beba6bf671675e63d1b9ccaa4ca
-Merge: 9f221ac 101d0f8
+commit 45058f6765325968b12909d2d8d8e66999142146
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 16:30:48 2024 +0100
 Size: counted 4417 of 4417 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.97092146522878.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,46 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         49
-Udapi: found 49 bugs.
+               TOTAL         21
+Udapi: found 21 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 4417 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-TueCL/ro_tuecl-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 223 Sent 14-1405031795238871040 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Odată de' does not have the 'ExtPos' feature
+[Line 293 Sent 18-1399211443359256577 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'în Realitate' does not have the 'ExtPos' feature
+[Line 293 Sent 18-1399211443359256577 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 516 Sent 30-1404411498533896193 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
+[Line 584 Sent 34-1408261725116379140 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'au nevoie' does not have the 'ExtPos' feature
+[Line 600 Sent 35-1405251497718341647 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'De ce' does not have the 'ExtPos' feature
+[Line 600 Sent 35-1405251497718341647 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 610 Sent 35-1405251497718341647 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'până în' does not have the 'ExtPos' feature
+[Line 623 Sent 36-1403544239825379331 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'având în vedere' does not have the 'ExtPos' feature
+[Line 824 Sent 44-1405240906358341641 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'de curând' does not have the 'ExtPos' feature
+[Line 824 Sent 44-1405240906358341641 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 875 Sent 47-1405226319277920265 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
+[Line 881 Sent 47-1405226319277920265 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'de la' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 938 Sent 49-1402070535425740814 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 1379 Sent 74-1405853560647061516 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'în'
+[Line 1425 Sent 76-1405905452773355528 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 2165 Sent 109-1402200491401039874 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Cu'
+[Line 2351 Sent 118-1396881113759555600 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 2480 Sent 124-1396462114408128516 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+[Line 2548 Sent 127-1397221142910443520 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'De'
+...suppressing further errors regarding Syntax
+Syntax errors: 17
+Warnings: 76
+*** FAILED *** with 17 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.215042466419464) = 0.0551390939537086
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.889064976228209) = 0.273558454224064
+(weight=0.307692307692308) * (score{udapi}=0.952456418383518) = 0.293063513348775
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.637269559102725) * (availability=1) * (validity=1) = 0.637269559102725
-STARS = 3
-UD_Romanian-TueCL	0.637269559102725	3
+(TOTAL score=0.656523235623112) * (availability=1) * (validity=0.01) = 0.00656523235623112
+STARS = 0
+UD_Romanian-TueCL	0.00656523235623112	0
