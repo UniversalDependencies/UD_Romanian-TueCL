@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Romanian-TueCL:
-commit c58f3013c081db431803a4eba99247e875749c51
-Merge: 04c8e6c b0479bc
+commit 44bd77d9dce92ad82352a52bc3e8fd8db970daf2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:36:48 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ro_tuecl'
 Language code (from CoNLL-U file name) = 'ro'
@@ -25,31 +25,32 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-TueCL/ro_tuecl-ud-test.conllu
-[Line 223 Sent 14-1405031795238871040]: [L3 Warning fixed-without-extpos] Fixed expression 'Odată de' does not have the 'ExtPos' feature
-[Line 293 Sent 18-1399211443359256577]: [L3 Warning fixed-without-extpos] Fixed expression 'în Realitate' does not have the 'ExtPos' feature
-[Line 293 Sent 18-1399211443359256577]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-[Line 486 Sent 28-1404614205626589184]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('te', 'secsi') under the predicate 'crede'.
-[Line 516 Sent 30-1404411498533896193]: [L3 Warning fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
-[Line 533 Sent 31-1405266539629015045]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('-o', 'față') under the predicate 'pune'.
-[Line 584 Sent 34-1408261725116379140]: [L3 Warning fixed-without-extpos] Fixed expression 'au nevoie' does not have the 'ExtPos' feature
-[Line 600 Sent 35-1405251497718341647]: [L3 Warning fixed-without-extpos] Fixed expression 'De ce' does not have the 'ExtPos' feature
-[Line 600 Sent 35-1405251497718341647]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
-[Line 610 Sent 35-1405251497718341647]: [L3 Warning fixed-without-extpos] Fixed expression 'până în' does not have the 'ExtPos' feature
-[Line 623 Sent 36-1403544239825379331]: [L3 Warning fixed-without-extpos] Fixed expression 'având în vedere' does not have the 'ExtPos' feature
-[Line 668 Sent 37-1410439705666146304]: [L3 Syntax too-many-objects] Multiple direct objects [17, 19, 21] ('TE', 'PUPICI', 'PUPICI') under the predicate 'ADOR'.
-[Line 824 Sent 44-1405240906358341641]: [L3 Warning fixed-without-extpos] Fixed expression 'de curând' does not have the 'ExtPos' feature
-[Line 824 Sent 44-1405240906358341641]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 875 Sent 47-1405226319277920265]: [L3 Warning fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
-[Line 881 Sent 47-1405226319277920265]: [L3 Warning fixed-without-extpos] Fixed expression 'de la' does not have the 'ExtPos' feature
-[Line 902 Sent 47-1405226319277920265]: [L3 Syntax too-many-objects] Multiple direct objects [42, 45] ('te', 'tine') under the predicate 'ador'.
-...suppressing further errors regarding Warning
-[Line 938 Sent 49-1402070535425740814]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 1023 Sent 54-1402994435844046850]: [L3 Syntax too-many-objects] Multiple direct objects [3, 8] ('ceea', 'bărbat') under the predicate 'dorește'.
-[Line 1379 Sent 74-1405853560647061516]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
-...suppressing further errors regarding Syntax
-Syntax errors: 25
-Warnings: 79
-*** FAILED *** with 25 errors
+[Line 223 Sent 14-1405031795238871040]: [L3 WARNING fixed-without-extpos] Fixed expression 'Odată de' does not have the 'ExtPos' feature
+[Line 293 Sent 18-1399211443359256577]: [L3 WARNING fixed-without-extpos] Fixed expression 'în Realitate' does not have the 'ExtPos' feature
+[Line 293 Sent 18-1399211443359256577]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+[Line 486 Sent 28-1404614205626589184]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 5] ('te', 'secsi') under the predicate 'crede'.
+[Line 516 Sent 30-1404411498533896193]: [L3 WARNING fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
+[Line 533 Sent 31-1405266539629015045]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 8] ('-o', 'față') under the predicate 'pune'.
+[Line 584 Sent 34-1408261725116379140]: [L3 WARNING fixed-without-extpos] Fixed expression 'au nevoie' does not have the 'ExtPos' feature
+[Line 600 Sent 35-1405251497718341647]: [L3 WARNING fixed-without-extpos] Fixed expression 'De ce' does not have the 'ExtPos' feature
+[Line 600 Sent 35-1405251497718341647]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('De')
+[Line 610 Sent 35-1405251497718341647]: [L3 WARNING fixed-without-extpos] Fixed expression 'până în' does not have the 'ExtPos' feature
+[Line 623 Sent 36-1403544239825379331]: [L3 WARNING fixed-without-extpos] Fixed expression 'având în vedere' does not have the 'ExtPos' feature
+[Line 668 Sent 37-1410439705666146304]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 19, 21] ('TE', 'PUPICI', 'PUPICI') under the predicate 'ADOR'.
+[Line 824 Sent 44-1405240906358341641]: [L3 WARNING fixed-without-extpos] Fixed expression 'de curând' does not have the 'ExtPos' feature
+[Line 824 Sent 44-1405240906358341641]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 875 Sent 47-1405226319277920265]: [L3 WARNING fixed-without-extpos] Fixed expression 'pentru că' does not have the 'ExtPos' feature
+[Line 881 Sent 47-1405226319277920265]: [L3 WARNING fixed-without-extpos] Fixed expression 'de la' does not have the 'ExtPos' feature
+[Line 902 Sent 47-1405226319277920265]: [L3 SYNTAX too-many-objects] Multiple direct objects [42, 45] ('te', 'tine') under the predicate 'ador'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 938 Sent 49-1402070535425740814]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 1023 Sent 54-1402994435844046850]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 8] ('ceea', 'bărbat') under the predicate 'dorește'.
+[Line 1379 Sent 74-1405853560647061516]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('în')
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 1706 Sent 89-1401460949962403841]: [L3 WARNING pron-det-without-prontype] The word 'multe' is tagged 'DET' but it lacks the 'PronType' feature
+Warnings: 77
+SYNTAX errors: 27
+*** FAILED *** with 27 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
